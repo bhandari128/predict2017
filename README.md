@@ -4,5 +4,5 @@ This app will send predictions to end-users.
 
 The end-user should enter a stock symbol.
 
-Then, the app will display a prediction.
+Then, the app will display a prediction for 2017.
 
