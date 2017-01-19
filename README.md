@@ -78,5 +78,13 @@ bundle install
 bin/rails db:migrate
 ```
 
+- If I want to run the webserver on my laptop I should run these shell commands:
+
+```bash
+cd ~ann/predict2017
+script/railss.bash
+```
+
 - To be continued...
+
 
