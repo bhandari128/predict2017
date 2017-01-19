@@ -60,7 +60,23 @@ psql -aP pager=no -U ann -W dev
 ```sql
 create table dropme(c1 int);
 drop   table dropme;
+\q
 ```
 
-- To be continued ...
+- Next I should clone the repository:
+
+```bash
+cd ~ann
+git clone https://github.com/danbikle/predict2017
+```
+
+- Then I should create some DB tables:
+
+```bash
+cd ~ann/predict2017
+bundle install
+bin/rails db:migrate
+```
+
+- To be continued...
 
