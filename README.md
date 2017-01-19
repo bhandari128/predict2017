@@ -101,6 +101,8 @@ heroku run bin/rails db:migrate
 
 - Or you can visit mine:
 
+https://predict2017.herokuapp.com
+
 
 
 
