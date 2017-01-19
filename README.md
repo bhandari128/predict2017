@@ -85,6 +85,23 @@ cd ~ann/predict2017
 script/railss.bash
 ```
 
-- To be continued...
+- Next, I should create an account at heroku.com using their website.
+
+- Then I should enter shell commands:
+
+```bash
+cd ~ann/predict2017
+heroku auth:login
+heroku create
+git push heroku master
+heroku run bin/rails db:migrate
+```
+
+- Then I should visit the app at herokuapp.com.
+
+- Or you can visit mine:
+
+
+
 
 
