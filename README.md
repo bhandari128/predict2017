@@ -13,7 +13,7 @@ I should follow some steps to start development on this app:
 - import it into Virtual Box
 - Start it
 - Login as ann with password a
--Then...
+- Then...
 
 ```bash
 sudo apt-get update
