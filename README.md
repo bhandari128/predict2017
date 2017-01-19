@@ -17,6 +17,7 @@ I should follow some steps to start development on this app:
 
 ```bash
 sudo apt-get update
+sudo apt-get upgrade
 
 sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev \
 libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3       \
