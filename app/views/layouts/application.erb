@@ -11,6 +11,8 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>    
+    <%= render '/layouts/app_top' %>
     <%= yield %>
+    <%= render '/layouts/app_bottom' %>
   </body>
 </html>

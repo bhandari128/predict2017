@@ -1,0 +1,11 @@
+%a(href='/') predict2017
+|
+- if current_user.blank?
+  = link_to 'sign_up', new_user_registration_path
+  |
+  = link_to 'sign_in', new_user_session_path
+  |
+  You are signed out
+- else
+  = link_to 'logout', '/logout'
+%hr/
